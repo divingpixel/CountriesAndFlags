@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Countries and Flags</string>
+
+    <string name="flagcdn">https://flagcdn.com/256x192/%1$s.png</string>
+    
+    <string name="loading">"Loading data …"</string>
+
+    <string name="currency">Currency</string>
+    <string name="capital">Capital</string>
+    <string name="languages">Languages</string>
+    <string name="background">Background</string>
+    <string name="area">Country size</string>
+    <string name="location">Location</string>
+
+    <string name="info">Info</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="country_info">more details</string>
+    <string name="country_back">close details</string>
+
+    <string name="about_app">©2024 Bogdan Draghici</string>
+    <string name="credentials_title">Data sources</string>
+    <string name="credentials_text"><b>Countries GraphQL API:</b>\nhttps://studio.apollographql.com/public/countries/\n\n<b>Ip Location API:</b>\nhttps://api.ip2location.io/\n\n<b>Flags API:</b>\nhttps://flagcdn.com/\n\n<b>Local country facts json source:</b>\nCIA - The World Factbook</string>
+    <string name="tech_stack_title">Tech Stack</string>
+    <string name="tech_stack_text">Kotlin, Hilt, Jetpack Compose, Coil, Coroutines, Retrofit, Apollo GraphQL, Jetpack Navigation, Room Database, Mockk, Turbine</string>
+
+    <string name="network_available">Network available</string>
+    <string name="network_disconnected">Network connection lost!</string>
+
+    <string name="top_bar_cards_screen_text">Countries of</string>
+    <string name="top_bar_search_screen_text">Country Search</string>
+    <string name="top_bar_game_screen_text">Match the Country…</string>
+
+    <string name="menu_pick_continent">Choose a continent</string>
+    <string name="menu_countries_button">Search a country</string>
+    <string name="menu_test_button">Take a test</string>
+
+    <string name="search_label">Search here</string>
+    <string name="search_results">Search results:</string>
+
+    <string name="test_rules">" On each round, you have to drop the %1$s over the card with the correct country or click on the correct country card to get 3 points. If you do it before the first %2$d seconds of the round pass, you also get an extra second, but if you pick wrong, 1 point will be lost!\n\n After %2$d seconds a card that is a wrong choice will be disabled, and if you choose correctly, the points gained will be only 2. If you choose wrong, you will loose 2 points.\n\n And lastly, after another %2$d seconds another wrong card will be disabled, and if you choose the correct country you'll gain only 1 point, but you will loose 3 points if you get it wrong!"</string>
+    <string name="test_flag">flag</string>
+    <string name="test_capital">capital</string>
+    <string name="test_no_capital_name">No capital city</string>
+    <string name="test_highest_score">Best:</string>
+    <string name="test_score">Score:</string>
+    <string name="test_time">Remaining time:</string>
+    <string name="test_type">Test type</string>
+    <string name="test_button_text">Take a test</string>
+    <string name="test_button_start">Start new test</string>
+    <string name="test_stats_matched">Matched correctly</string>
+    <string name="test_stats_mismatched">Mismatched</string>
+    <string name="test_button_abort">Abort test</string>
+    <string name="test_abort_dialog_text">Are you sure you want to abort the current test?</string>
+    <string name="test_finish_dialog_text">Test finished!\n\nYou have matched all the countries!</string>
+</resources>

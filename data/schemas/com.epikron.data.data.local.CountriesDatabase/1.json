@@ -1,0 +1,100 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 1,
+    "identityHash": "95fa981ba3b6a3f4b5d910c76dcc9dc3",
+    "entities": [
+      {
+        "tableName": "CountryModel",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `country_code` TEXT NOT NULL, `country_name` TEXT NOT NULL, `country_native_name` TEXT NOT NULL, `country_continent` TEXT NOT NULL, `country_location` TEXT NOT NULL, `country_area` INTEGER NOT NULL, `country_capital` TEXT NOT NULL, `country_flag` TEXT NOT NULL, `country_currency` TEXT NOT NULL, `country_languages` TEXT NOT NULL, `country_background` TEXT NOT NULL)",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "code",
+            "columnName": "country_code",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "name",
+            "columnName": "country_name",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "nativeName",
+            "columnName": "country_native_name",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "continent",
+            "columnName": "country_continent",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "location",
+            "columnName": "country_location",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "area",
+            "columnName": "country_area",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "capital",
+            "columnName": "country_capital",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "flag",
+            "columnName": "country_flag",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "currency",
+            "columnName": "country_currency",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "languages",
+            "columnName": "country_languages",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "background",
+            "columnName": "country_background",
+            "affinity": "TEXT",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": true,
+          "columnNames": [
+            "id"
+          ]
+        },
+        "indices": [],
+        "foreignKeys": []
+      }
+    ],
+    "views": [],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, '95fa981ba3b6a3f4b5d910c76dcc9dc3')"
+    ]
+  }
+}
